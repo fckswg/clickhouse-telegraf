@@ -1,5 +1,8 @@
 Script for collecting metrics from `clickhouse` by `telegraf` to influxdb
 
+build: 
+GOOS=linux GOARCH=amd64 go build -o chMon chMon.go
+
 Example of `telegraf` `input_exec` config in `.conf` file.
 Change the credentials in the configuration file `config.toml` to your own to access ch-server
 Place config.toml with credentials near binary.
