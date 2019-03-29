@@ -1,0 +1,5 @@
+[clickhouse]
+  hostname = "example.com"
+  user = "default"
+  password = "default"
+  database = "default" # for tables sizes
